@@ -46,13 +46,13 @@ By the end, you'll understand service-oriented architecture (SOA) and how OutSys
 Download and reference these Requirement Documents (BRDs) throughout the workshop:
 
 ### Backend Service
-- **[BRD-QMSBackendService-2026-09-27.md](/workshops/rest-api-integration-multi-app/BRD-QMSBackendService-2026-09-27.md)** — Complete specification for the REST API backend service (data model, 6 endpoints, authentication, implementation notes)
+- **[BRD-QMSBackendService-2026-09-27.md](/outsystems-developer-workshops/workshops/rest-api-integration-multi-app/BRD-QMSBackendService-2026-09-27.md)** — Complete specification for the REST API backend service (data model, 6 endpoints, authentication, implementation notes)
 
 ### Web Application (Multi-App Architecture)
-- **[BRD-QualityDefectManagement-2026-09-27.md](/workshops/rest-api-integration-multi-app/BRD-QualityDefectManagement-2026-09-27.md)** — Complete specification for the web app that consumes the REST API (6 screens, validation rules, error handling, testing strategy)
+- **[BRD-QualityDefectManagement-2026-09-27.md](/outsystems-developer-workshops/workshops/rest-api-integration-multi-app/BRD-QualityDefectManagement-2026-09-27.md)** — Complete specification for the web app that consumes the REST API (6 screens, validation rules, error handling, testing strategy)
 
 ### Alternative: Monolithic Architecture
-- **[BRD-QualityDefectManagement-Monolith-2026-09-27.md](/workshops/rest-api-integration-multi-app/BRD-QualityDefectManagement-Monolith-2026-09-27.md)** — Alternative single-app architecture (same features, no REST API layer). Use this to compare multi-app vs monolith approaches.
+- **[BRD-QualityDefectManagement-Monolith-2026-09-27.md](/outsystems-developer-workshops/workshops/rest-api-integration-multi-app/BRD-QualityDefectManagement-Monolith-2026-09-27.md)** — Alternative single-app architecture (same features, no REST API layer). Use this to compare multi-app vs monolith approaches.
 
 ---
 
@@ -95,8 +95,6 @@ Before creating the app, download and review the requirement document:
 3. Name the app: **QMS-Backend**
 4. Description: *"Backend service for manufacturing quality defect management. Exposes REST APIs for defect CRUD operations and authentication via X-API-Key header."*
 
-![ODC Studio create menu](./images/step2-create-app.png)
-
 ---
 
 ### Step 3: Upload BRD to Mentor IDE
@@ -107,8 +105,6 @@ Before creating the app, download and review the requirement document:
    - Check that data model shows: **Defect** and **DefectHistory** entities
    - Check that 4 API endpoints are recognized: List, Get, GetHistory, Update
    - Verify **NO screens** are being generated (backend-only warning should appear)
-
-![Mentor IDE with BRD uploaded](./images/step3-mentor-upload.png)
 
 > ⚠️ **Warning**: If Mentor tries to generate screens, this is expected — the BRD explicitly says "no UI." In the blueprint review, you can delete any generated screens before approval. This is a quirk of how code generators work.
 
@@ -125,8 +121,6 @@ Before creating the app, download and review the requirement document:
    - **Logic:** OnAuthentication action (may need manual creation — see Step 5)
 
 2. Click **1-Click Publish** to publish to your development stage
-
-![Generated app in ODC Studio](./images/step4-publish.png)
 
 > 💡 **Tip**: Keep ODC Studio open — you'll review a critical implementation pattern and add the OnAuthentication logic in the next steps.
 
@@ -202,8 +196,6 @@ These server actions must follow this pattern:
      ```
      dev_k9mZ7xQ2pL5vN8bR4tY1wE6jH3aS0cF7
      ```
-
-![Creating APIKey Setting in ODC Portal](./images/step5-create-setting.png)
 
 > 🔑 **API Key Format & Generation**: 
 > - Keys must be at least 32 characters long
