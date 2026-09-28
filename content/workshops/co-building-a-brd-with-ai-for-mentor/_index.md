@@ -29,7 +29,7 @@ In this workshop, you'll use [**outsystems-mentor-brd**](https://github.com/donn
 
 ## Prerequisites
 
-- Complete <a href="/workshops/setting-up/" target="_blank">Setting Up for OutSystems Workshops</a>, specifically **Workshop Requirement 2** (OutSystems Docs MCP) — this workshop builds directly on that clone
+- Complete {{< workshop slug="setting-up" label="Setting Up for OutSystems Workshops" >}}, specifically **Workshop Requirement 2** (OutSystems Docs MCP) — this workshop builds directly on that clone
 - Claude Code installed (see <a href="https://docs.claude.com/en/docs/claude-code" target="_blank">the official docs</a>)
 
 ---
@@ -173,7 +173,7 @@ The interview keeps going through scope, workflows, integrations, and constraint
 >
 > **You reply:** "No, keep it simple for now."
 
-> 💡 **Tip**: Answering "no" here matters — it keeps the skill on the standard single-app template instead of branching into a separate AI Agent architecture, which is a different (and longer) path meant for agentic apps like the one in <a href="/workshops/jumpstart-3-build-refund-agent/" target="_blank">JumpStart 3</a>.
+> 💡 **Tip**: Answering "no" here matters — it keeps the skill on the standard single-app template instead of branching into a separate AI Agent architecture, which is a different (and longer) path meant for agentic apps like the one in {{< workshop slug="jumpstart-3-build-refund-agent" label="JumpStart 3" >}}.
 
 After a handful of exchanges, the skill pauses to confirm what it heard before moving on:
 
@@ -230,7 +230,7 @@ Open the first file and check:
 
 ![Mentor blueprint generated from the attached BRD](./co-building-a-brd-with-ai-for-mentor-4.png)
 
-> ℹ️ **Info**: This is the same attachment step covered in <a href="/workshops/jumpstart-1-requirements-to-app/" target="_blank">JumpStart 1</a> — the only difference here is where the document came from.
+> ℹ️ **Info**: This is the same attachment step covered in {{< workshop slug="jumpstart-1-requirements-to-app" label="JumpStart 1" >}} — the only difference here is where the document came from.
 
 > 💡 **Tip**: Keep `BRD-InventoryDashboard-Context-[date].md` around even though Mentor never sees it — it's what you'd hand to a stakeholder or teammate to sign off on scope before you generate anything.
 
@@ -250,4 +250,4 @@ You've co-built a Mentor-ready requirement document without writing a single sec
 
 ## Next Steps
 
-- If you'd like to see a document like this turn into a working application, <a href="/workshops/jumpstart-1-requirements-to-app/" target="_blank">JumpStart 1: From Requirements to an Enterprise Web App</a> walks through exactly that — entirely optional, and not required to get value out of this workshop.
+- If you'd like to see a document like this turn into a working application, {{< workshop slug="jumpstart-1-requirements-to-app" label="JumpStart 1: From Requirements to an Enterprise Web App" >}} walks through exactly that — entirely optional, and not required to get value out of this workshop.

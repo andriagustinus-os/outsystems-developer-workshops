@@ -28,7 +28,7 @@ Now that your Refund Agent is built and published, you'll embed it directly into
 
 ## Prerequisites
 
-- Complete <a href="/workshops/jumpstart-3-build-refund-agent/" target="_blank">JumpStart 3: Build a Refund Agent</a>
+- Complete {{< workshop slug="jumpstart-3-build-refund-agent" label="JumpStart 3: Build a Refund Agent" >}}
 - Your Refund Agent must be published
 
 ---
@@ -282,4 +282,4 @@ You've successfully embedded your AI agent into the main application! Users can 
 
 ## Next Steps
 
-- Continue to <a href="/workshops/jumpstart-5-agent-tools/" target="_blank">JumpStart 5: Add Tools to Your Agent</a> (Bonus) to extend your agent with tool-calling capabilities
+- Continue to {{< workshop slug="jumpstart-5-agent-tools" label="JumpStart 5: Add Tools to Your Agent" >}} (Bonus) to extend your agent with tool-calling capabilities

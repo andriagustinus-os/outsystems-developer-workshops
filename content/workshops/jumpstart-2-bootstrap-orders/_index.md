@@ -27,7 +27,7 @@ Now that you've created your first web app using Mentor, it's time to extend it 
 
 ## Prerequisites
 
-- Complete <a href="/workshops/jumpstart-1-requirements-to-app/" target="_blank">JumpStart 1: From Requirements to an Enterprise Web App</a>
+- Complete {{< workshop slug="jumpstart-1-requirements-to-app" label="JumpStart 1: From Requirements to an Enterprise Web App" >}}
 
 ---
 
@@ -235,4 +235,4 @@ You've successfully extended your GenAI-generated app by:
 
 ## Next Steps
 
-- Continue to <a href="/workshops/jumpstart-3-build-refund-agent/" target="_blank">JumpStart 3: Build a Refund Agent</a> to add AI intelligence to your app
+- Continue to {{< workshop slug="jumpstart-3-build-refund-agent" label="JumpStart 3: Build a Refund Agent" >}} to add AI intelligence to your app

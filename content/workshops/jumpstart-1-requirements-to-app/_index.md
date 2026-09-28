@@ -27,7 +27,7 @@ In this workshop, you'll use <a href="https://www.outsystems.com/low-code-platfo
 
 ## Prerequisites
 
-- Complete <a href="/workshops/setting-up/" target="_blank">Setting Up for OutSystems Workshops</a>
+- Complete {{< workshop slug="setting-up" label="Setting Up for OutSystems Workshops" >}}
 - Have ODC Studio installed and connected to your personal environment
 
 ---
@@ -166,7 +166,7 @@ Once generation completes:
 
 ![Preview button in Mentor](image28.png)
 
-> ⚠️ **Warning**: If you receive an error when publishing, refer to the <a href="/workshops/setting-up/#workarounds" target="_blank">Workaround section</a> for backup instructions.
+> ⚠️ **Warning**: If you receive an error when publishing, refer to the {{< workshop slug="setting-up" label="Workaround section" fragment="workarounds" >}} for backup instructions.
 
 ---
 
@@ -185,7 +185,7 @@ Your app should now be running with:
 
 > 💡 **Tip**: Mentor generates sample data to help you test your application. You can also login with sample users according to the defined roles.
 
-> ⚠️ **Warning**: The Dashboard screen can be slightly different from the image. Data can take a moment to appear as you've just published — refresh the page a couple of times if needed. If you don't have sample data, follow the <a href="/workshops/setting-up/#workaround-sample-data-bootstrap" target="_blank">bootstrap workaround steps</a>.
+> ⚠️ **Warning**: The Dashboard screen can be slightly different from the image. Data can take a moment to appear as you've just published — refresh the page a couple of times if needed. If you don't have sample data, follow the {{< workshop slug="setting-up" label="bootstrap workaround steps" fragment="workaround-sample-data-bootstrap" >}}.
 
 ---
 
@@ -201,4 +201,4 @@ Congratulations! 🎉 You've successfully transformed a functional requirements 
 
 ## Next Steps
 
-- Continue to <a href="/workshops/jumpstart-2-bootstrap-orders/" target="_blank">JumpStart 2: Create and Bootstrap Orders</a> to extend your app with ODC Studio
+- Continue to {{< workshop slug="jumpstart-2-bootstrap-orders" label="JumpStart 2: Create and Bootstrap Orders" >}} to extend your app with ODC Studio

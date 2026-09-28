@@ -27,7 +27,7 @@ In this bonus workshop, you'll extend your Refund Agent with **tools** — serve
 
 ## Prerequisites
 
-- Complete <a href="/workshops/jumpstart-4-embed-agent-in-app/" target="_blank">JumpStart 4: Embed the Agent in Your App</a>
+- Complete {{< workshop slug="jumpstart-4-embed-agent-in-app" label="JumpStart 4: Embed the Agent in Your App" >}}
 
 ---
 

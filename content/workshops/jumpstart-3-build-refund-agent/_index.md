@@ -27,7 +27,7 @@ The operations team wants a quick way to view refund history for specific suppli
 
 ## Prerequisites
 
-- Complete <a href="/workshops/jumpstart-2-bootstrap-orders/" target="_blank">JumpStart 2: Create and Bootstrap Orders</a>
+- Complete {{< workshop slug="jumpstart-2-bootstrap-orders" label="JumpStart 2: Create and Bootstrap Orders" >}}
 - All entities must be marked as **Public = Yes**
 
 ---
@@ -244,4 +244,4 @@ You've built an AI-powered Refund Agent that:
 
 ## Next Steps
 
-- Continue to <a href="/workshops/jumpstart-4-embed-agent-in-app/" target="_blank">JumpStart 4: Embed the Agent in Your App</a> to integrate this agent into your web application's UI
+- Continue to {{< workshop slug="jumpstart-4-embed-agent-in-app" label="JumpStart 4: Embed the Agent in Your App" >}} to integrate this agent into your web application's UI

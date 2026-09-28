@@ -1,0 +1,9 @@
+{{- $slug := .Get "slug" -}}
+{{- $label := .Get "label" -}}
+{{- $fragment := .Get "fragment" | default "" -}}
+{{- $path := printf "workshops/%s/" $slug -}}
+{{- $href := $path | relURL -}}
+{{- if $fragment -}}
+  {{- $href = printf "%s#%s" $href $fragment -}}
+{{- end -}}
+<a href="{{ $href }}" target="_blank" rel="noopener noreferrer">{{ $label }}</a>

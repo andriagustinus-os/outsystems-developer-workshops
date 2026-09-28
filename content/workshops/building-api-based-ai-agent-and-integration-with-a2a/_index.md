@@ -30,7 +30,7 @@ By the end, you'll have a single HTTP endpoint that, behind the scenes, triggers
 
 ## Prerequisites
 
-- Complete <a href="/workshops/setting-up/" target="_blank">Setting Up for OutSystems Workshops</a>
+- Complete {{< workshop slug="setting-up" label="Setting Up for OutSystems Workshops" >}}
 - <a href="https://www.postman.com/downloads/" target="_blank">Postman</a> (or any REST client) installed
 - The API key for this workshop's external agent — ask your facilitator. You'll enter it directly into the A2A connection's authentication settings in the ODC Portal (Step 4) — it doesn't belong anywhere else, including app logic, screenshots, or anything you commit
 
@@ -59,7 +59,7 @@ Your job isn't to rebuild that — it's to build the OutSystems-side agent that 
 
 ![Choosing the AI model and creating the agentic app](./images/building-api-based-ai-agent-and-integration-with-a2a-3.png)
 
-> ℹ️ **Info**: This is the same underlying feature — Agent Workbench — used in <a href="/workshops/jumpstart-3-build-refund-agent/" target="_blank">JumpStart 3</a> to build the Refund Agent. This workshop's agent is a separate, unrelated app — you don't need to have completed that one.
+> ℹ️ **Info**: This is the same underlying feature — Agent Workbench — used in {{< workshop slug="jumpstart-3-build-refund-agent" label="JumpStart 3" >}} to build the Refund Agent. This workshop's agent is a separate, unrelated app — you don't need to have completed that one.
 
 ---
 
@@ -450,4 +450,4 @@ You've built an OutSystems agent that doesn't try to do everything itself — it
 
 ## Next Steps
 
-- If you haven't already, <a href="/workshops/jumpstart-3-build-refund-agent/" target="_blank">JumpStart 3: Build a Refund Agent</a> covers Agent Workbench from the ground up with a locally-grounded agent — useful context, though not required for what you just built.
+- If you haven't already, {{< workshop slug="jumpstart-3-build-refund-agent" label="JumpStart 3: Build a Refund Agent" >}} covers Agent Workbench from the ground up with a locally-grounded agent — useful context, though not required for what you just built.
