@@ -68,6 +68,6 @@ We believe hands-on learning is the fastest way to build real skills. Through pr
 
 ---
 
-**Want to jump in?** Head over to [Workshops](/workshops/) to explore what's available.
+**Want to jump in?** Head over to [Workshops]({{< relref "/workshops" >}}) to explore what's available.
 
 **Have feedback or ideas?** We'd love to hear from you. These workshops are shaped by the community.

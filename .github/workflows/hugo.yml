@@ -31,7 +31,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify -b https://donnieprakoso.github.io/outsystems-developer-workshops/
+        run: hugo --minify -b https://andriagustinus-os.github.io/outsystems-developer-workshops/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

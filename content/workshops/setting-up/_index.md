@@ -131,7 +131,7 @@ Install the OutSystems Docs MCP (unofficial):
 ### Step 1: Clone the Repo
 
 ```bash
-git clone https://github.com/donnieprakoso/mcp-outsystems-docs.git
+git clone https://github.com/andriagustinus-os/mcp-outsystems-docs.git
 ```
 
 ### Step 2: Install All the Requirements

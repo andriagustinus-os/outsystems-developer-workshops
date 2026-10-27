@@ -201,7 +201,7 @@ Now that your Refund Agent is built and published, you'll embed it directly into
 
 > ℹ️ **Info**: The OutSystems Forge is a repository of reusable, open-source components and accelerators that bring extra functionality to the platform.
 
-> ⚠️ **Warning**: If the Forge button doesn't work, see the [Forge workaround](/workshops/setting-up/#workaround-forge).
+> ⚠️ **Warning**: If the Forge button doesn't work, see the [Forge workaround]({{< relref "/workshops/setting-up" >}}#workaround-forge).
 
 ---
 

@@ -17,7 +17,7 @@ tags: ["mentor", "genai", "requirements", "claude-code"]
 
 <a href="https://success.outsystems.com/documentation/outsystems_developer_cloud/agentic_development/ai_app_generation_in_mentor_web/" target="_blank">Mentor</a> accepts either short prompts or [structured requirement documents](https://success.outsystems.com/documentation/outsystems_developer_cloud/agentic_development/ai_app_generation_in_mentor_web/use_requirement_documents/) as input. For anything beyond a simple app, a well-structured requirement document produces a far more accurate blueprint — but writing one that Mentor actually parses correctly (the right data types, list-based entity syntax, recognized screen patterns, no PII) takes some understanding.
 
-In this workshop, you'll use [**outsystems-mentor-brd**](https://github.com/donnieprakoso/mcp-outsystems-docs/tree/main/SKILLS) — a custom skill for Claude Code — to co-build that document instead of writing it from scratch. The skill interviews you like a business analyst would, researches Mentor's current documentation live, and produces a requirement document formatted the way Mentor expects. By the end, you'll have a Mentor-ready BRD for a fictional inventory management dashboard.
+In this workshop, you'll use [**outsystems-mentor-brd**](https://github.com/andriagustinus-os/mcp-outsystems-docs/tree/main/SKILLS) — a custom skill for Claude Code — to co-build that document instead of writing it from scratch. The skill interviews you like a business analyst would, researches Mentor's current documentation live, and produces a requirement document formatted the way Mentor expects. By the end, you'll have a Mentor-ready BRD for a fictional inventory management dashboard.
 
 ## What You'll Learn
 

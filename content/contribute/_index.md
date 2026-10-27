@@ -14,14 +14,14 @@ These workshops thrive because of community contributions. Whether it's fixing t
 
 ## Ways to Contribute
 
-- **Report issues**: Found something unclear? [Open an issue](https://github.com/donnieprakoso/outsystems-developer-workshops/issues)
+- **Report issues**: Found something unclear? [Open an issue](https://github.com/andriagustinus-os/outsystems-developer-workshops/issues)
 - **Improve content**: Fix typos, clarify steps, update outdated info
 - **Add examples**: Share working code and patterns
 - **Create workshops**: Propose new workshop topics
 
 ## How to Contribute
 
-1. Fork and clone the [repository](https://github.com/donnieprakoso/outsystems-developer-workshops)
+1. Fork and clone the [repository](https://github.com/andriagustinus-os/outsystems-developer-workshops)
 2. Create a feature branch: `git checkout -b feature/your-idea`
 3. Make your changes (keep them focused)
 4. Test locally: `hugo serve`
@@ -37,7 +37,7 @@ These workshops thrive because of community contributions. Whether it's fixing t
 
 ## Questions?
 
-Open an issue on [GitHub](https://github.com/donnieprakoso/outsystems-developer-workshops) or comment on a PR.
+Open an issue on [GitHub](https://github.com/andriagustinus-os/outsystems-developer-workshops) or comment on a PR.
 
 ---
 

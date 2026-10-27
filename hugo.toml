@@ -15,7 +15,7 @@ publishDir = "public"
 
 [[menu.main]]
   name = "Workshops"
-  url = "/workshops/"
+  pageRef = "/workshops"
   weight = 2
 
 [markup]
